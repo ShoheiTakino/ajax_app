@@ -6,7 +6,7 @@ const buildHTML = (XHR) =>  {
         投稿日時:${item.created_at}
       </div>
       <div class="post-content">
-        $#{item.content}
+        ${item.content}
       </div>
     </div>`;
   return html;
